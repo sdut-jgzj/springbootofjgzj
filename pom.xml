@@ -6,6 +6,7 @@
 
     <groupId>cn.com.jgzj.sdut</groupId>
     <artifactId>springboot-jgzj</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -37,5 +38,11 @@
             <version>2.2.2</version>
         </dependency>
     </dependencies>
+    <modules>
+        <module>sdut-campaign</module>
+        <module>sdut-audience</module>
+        <module>sdut-flow-engine</module>
+        <module>sdut-master-data</module>
+    </modules>
     
 </project>
